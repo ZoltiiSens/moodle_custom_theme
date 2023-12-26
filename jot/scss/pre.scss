@@ -1,2 +1,49 @@
-$bg-main:       #EFF1F8 !default;
-$primary:       #0472E9 !default;
+// colors
+$bg-main:                   #EFF1F8 !default;
+$bg-lay-over:               #EDF0F3 !default;
+$bg-task-box:               #EFF1F8 !default;
+$bg-input:                  #ECF0F3 !default;
+$bg-input-focus:            #DEEEFA !default;
+$bg-scroll:                 #4BB5EC !default;
+$bg-scroll-bg:              #ECF0F3 !default;
+$primary:                   #42C1EE !default;
+$text-header-color:         #454D5B !default;
+$text-subheader-color:      #0C8DEA !default;
+$text-header-navbar-hover:  #51a1ed !default;
+$text-common-color:         #445375 !default;
+$button-primary-color:      #FFFFFF !default;
+$button-color:              #0C8DEA !default;
+$button-bg:                 #ECF0F3 !default;
+$bg-selected:               #4BB5EC !default;
+$blue-default:              #42C1EE !default;
+$table-bg-row-odd:          #e3eaef !default;
+$table-bg-header-color:     #D0EBFA !default;
+
+// gradients
+$button-primary-bg:         linear-gradient(180deg, #22D6EE 12%, #0472E9 100%);
+
+
+
+// shadows
+$shadow-middle: 2px 2px 4px #D0EBFA, -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(103, 105, 105, 0.25);
+$shadow-layer-pressed: 2px 2px 3px rgba(103, 105, 105, 0.25), -4px -4px 8px rgba(255, 255, 255, 0.9), 4px 4px 8px #D0EBFA, inset 2px 2px 4px #D0EBFA, inset -8px -8px 16px #FFFFFF, inset 8px 8px 16px rgba(103, 105, 105, 0.25);
+$shadow-input: inset 0px 4px 4px rgba(103, 105, 105, 0.25), inset -6px -4px 15px #FFFFFF, inset 4px 4px 15px #D0EBFA;
+$shadow-input-highlighted: inset 0px 4px 4px rgba(103, 105, 105, 0.25), inset -6px -4px 15px #D0EBFA, inset 4px 4px 15px #D0EBFA;
+$button-primary-shadow: 3px -3px 6px #FFFFFF, 3px 3px 8px #C5C6C7;
+$button-shadow: -3px -3px 6px #FFFFFF, 3px 3px 8px #C5C6C7;
+$bg-scroll-shadow: inset 4px 4px 8px rgba(103, 105, 105, 0.25), inset -1px -1px 6px #FFFFFF, inset 2px 2px 6px #D0EBFA;
+$smallShadow: 2px 2px 4px 0px #D0EBFA, -2px -2px 4px 0px #FFFFFF, 1px 1px 2px 0px #C2CFD6;
+
+
+// ----- Boost variables
+$primary:           $blue-default !default;
+$success:           #139C59 !default;
+$info:              #0C8DEA !default;
+$warning:           #FF8181 !default;
+$danger:            #DC0000 !default;
+$secondary:         #3F5477 !default;
+$pagination-color:  #0472E9 !default;
+
+// Custom control size
+$border-radius: 15px !default;
+$border-radius-lg: .6rem !default;

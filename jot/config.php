@@ -54,3 +54,5 @@ $THEME->haseditswitch = true;
 $THEME->scss = function($theme) {                                                                                                   
     return theme_jot_get_main_scss_content($theme);                                                                               
 };
+
+$THEME->iconsystem = '\\theme_essential\\output\\icon_system_fontawesome';
