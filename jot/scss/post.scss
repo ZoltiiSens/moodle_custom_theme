@@ -447,19 +447,19 @@ nav.pagination .pagination .page-item.active a{
 }
 
 
-
-
-
-
-
-
-
-.que .outcome.correctQuestionAttempt, .que .comment.correctQuestionAttempt {
-    background-color: #bee3be !important;
-    color: $secondary !important;
-}
+// .que .outcome.correctQuestionAttempt, .que .comment.correctQuestionAttempt {
+//     background-color: #bee3be !important;
+//     color: $secondary !important;
+// }
 
 .que.correct .content .outcome{
     background-color: #bee3be !important;
     color: $secondary !important;
 }
+
+.que.partiallycorrect .content .outcome,
+.que.complete .content .outcome{
+    background-color: #fff3bf !important;
+    color: $secondary !important;
+}
+
