@@ -445,3 +445,21 @@ nav.pagination .pagination .page-item.active a{
     background-color: inherit;
     box-shadow: $smallShadow;
 }
+
+
+
+
+
+
+
+
+
+.que .outcome.correctQuestionAttempt, .que .comment.correctQuestionAttempt {
+    background-color: #bee3be !important;
+    color: $secondary !important;
+}
+
+.que.correct .content .outcome{
+    background-color: #bee3be !important;
+    color: $secondary !important;
+}
